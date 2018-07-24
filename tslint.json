@@ -9,7 +9,8 @@
         "semicolon": false,
         "interface-name": false,
         "member-ordering": false,
-        "prefer-method-signature": false
+        "prefer-method-signature": false,
+        "only-arrow-functions": false
     },
     "rulesDirectory": []
 }

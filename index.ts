@@ -41,3 +41,7 @@ export interface ImmutableArray<T> extends Array<T> {
     readonly reduce: Reduce<T>;
     readonly reduceRight: Reduce<T>
 }
+
+export function create<T>(...v: T[]): ImmutableArray<T> {
+    return v as ImmutableArray<T>
+}
